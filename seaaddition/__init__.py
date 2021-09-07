@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function, unicode_literals, division, absolute_import
-from addition.settings import DEFAULT_BASE_URL_FOR_TEXT
-from addition.base1 import Classifications
+from seaaddition.settings import DEFAULT_BASE_URL_FOR_TEXT
+from seaaddition.base1 import Classifications
 
 
-class addition(object):
+class seaaddition(object):
 	def __init__(self,accountId,apikey,emailId, base_url=DEFAULT_BASE_URL_FOR_TEXT):
 
 		self.accountId = accountId

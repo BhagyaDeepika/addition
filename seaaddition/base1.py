@@ -8,9 +8,9 @@ import pkg_resources
 import six
 from six.moves.urllib.parse import urlencode
 import requests
-from addition.response import additionResponse
+from seaaddition.response import seaadditionResponse
 
-from addition.settings import DEFAULT_BASE_URL_FOR_TEXT
+from seaaddition.settings import DEFAULT_BASE_URL_FOR_TEXT
 
 class Endpoint(object):
 	

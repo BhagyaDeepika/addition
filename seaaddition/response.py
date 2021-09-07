@@ -3,7 +3,7 @@ from __future__ import print_function, unicode_literals, division, absolute_impo
 
 import requests
 import simplejson
-class additionResponse(object):
+class seaadditionResponse(object):
 	def __init__(self, raw_response=None):
 		if raw_response is None:
 			raw_response=[]
